@@ -1,138 +1,226 @@
    /* body { max-width: 1220px} */
-   body{
+
+   body {
        width: 100%;
        overflow-x: hidden;
    }
-* { margin: 0; padding: 0; outline: none; box-sizing: border-box;}
 
-.hd{
-    width: 100%; 
-    height: 10vh; 
-    background-color: white;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-}
+   * {
+       margin: 0;
+       padding: 0;
+       outline: none;
+       box-sizing: border-box;
+   }
 
-.hd img{
-    width: 15vw;
-}
+   .hd {
+       width: 100%;
+       height: 10vh;
+       background-color: white;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
 
-#banner{
-    background-color: #0D202E;
-    max-width: 100%;
-    height: auto;
-}
+   .hd img {
+       width: 15vw;
+   }
 
-#banner img{
-    max-width: 100%;
-    height: auto;
-}
+   #banner {
+       z-index: 99;
+       max-width: 100%;
+       height: auto;
+   }
 
-#time{
-    max-width: 100%;
-    height: auto;
-    margin-top: -20em;
-}
+   #banner img {
+       max-width: 90%;
+       height: auto;
+   }
 
+   #time {
+       max-width: 100%;
+       height: auto;
+       margin-top: -20em;
+   }
 
-#forms{
-    background-image: url(/img/bgforms.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    max-width: 100%;
-    height: 130vh;
-    margin-top: -8em;
-    
-}
+   #form-sender {
+       background-color: #00BDD7;
+       border: none;
+       font-size: 21px;
+       font-weight: 600;
+   }
 
-h2.bg-forms{
-    color: #1a2530;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-}
+   #forms {
+       background-image: url(../img/bgforms.png);
+       background-repeat: no-repeat;
+       background-size: 100%;
+       max-width: 100%;
+       height: 80vh;
+       margin-top: -8em;
+   }
 
-#bg-menu{
-    background-image: url(/img/bgmenu.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    max-width: 100%;
-    height: auto;
+   h2.bg-forms {
+       color: #1a2530;
+       font-weight: bold;
+       font-size: 30px;
+       text-align: center;
+   }
 
-}
+   #bg-menu {
+       background-image: url(../img/bgmenu.png);
+       background-repeat: no-repeat;
+       background-size: 100%;
+       max-width: 100%;
+       background-color: #3abecb;
+       /*height: 151vh;*/
+       height: 1477px;
+   }
 
-.text{
-    max-width: 100%;
-    height: auto;
-}
+   .text {
+       max-width: 100%;
+       height: auto;
+   }
 
-h1.text{
-    color: #1a2530;
-    font-weight: bold;
-    font-size: 30px;
-    padding-left: 5em;
-}
-p{
-    color: #3abecb;
-    font-weight: bold;
-    font-size: 23px;
-}
+   h1.text {
+       color: #1a2530;
+       font-weight: bold;
+       font-size: 40px;
+   }
 
-#bg-menu{
-    max-width: 100%;
-    height: 145vh;
-}
+   #spacer p {
+       font-size: 35px;
+   }
 
-h2.menu{
+   p {
+       color: #3abecb;
+       font-weight: bold;
+       font-size: 23px;
+   }
+
+   #bg-menu {
+       max-width: 100%;
+  
+   }
+
+   h2.menu {
+       color: white;
+       font-weight: bold;
+   }
+
+   h2.saiba {
+       color: white;
+       font-weight: bold;
+       font-size: 30px;
+   }
+
+   p.saiba-forms {
+       color: #1a2530;
+       font-weight: light;
+       font-size: 23px;
+   }
+
+   .formulario {}
+
+   input#formGroupExampleInput.form-control {
+       border-radius: 50px;
+       padding: 15px;
+       box-shadow: 0 5px 5px 0 rgba(179, 179, 179, 1);
+   }
+
+   input#formGroupExampleInput2.form-control {
+       border-radius: 50px;
+       padding: 15px;
+       box-shadow: 0 5px 5px 0 rgba(179, 179, 179, 1);
+   }
+
+   input.form-control {
+       border-radius: 50px;
+       padding: 15px;
+       box-shadow: 0 5px 5px 0 rgba(179, 179, 179, 1);
+   }
+
+   button.btn.btn-primary {
+       border-radius: 45px;
+       padding: 15px;
+       box-shadow: 0 1px 1px 0 rgba(32, 33, 36, .28);
+   }
+
+   footer img {
+       max-width: 100%;
+       height: auto;
+       margin-top: -35vh;
+   }
+
+   .topics-list li {
+    display: inline-block;
+    color: #4A5157;
+    font-size: 24px;
+    margin: 1em;
+    font-weight: 600;
+    border-bottom: solid 6px;
+   }
+
+   .topics-list li:hover, .topics-list li.active-topic {
+    color: #fff;
+    border-bottom: solid 6px #3abecb;
+    transition: 0.5s;
+   }
+
+   .topic-content ul li{
     color: white;
-    font-weight: bold;
-}
+    font-size: 22px;
+    font-weight: 500;
+   }
 
+   .topic-content ul li:hover{
+  color: #3abecb;
+  transition: 0.5s;
 
-h2.saiba{
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-}
+   }
 
-p.saiba-forms{
-    color: #1a2530;
-    font-weight: light;
-    font-size: 23px;
-}
+   #real-roi, #artificial-inteligence{
+       display: none;
+   }
 
-.formulario{
+   #thefinalblue{
+    background-color: #3abecb;
+    height: 46vh;
+   }
 
-}
+   @media screen and (min-width: 1200px) {
+       .formulario {
+           width: 50%;
+           background-color: white;
+           margin-top: 25em;
+           margin-right: 8em;
+           border-radius: 8px;
+           box-shadow: 0 5px 5px 0 rgba(179, 179, 179, 0.6);
+           float: right;
+           padding: 4em;
+       }
+       #spacer {
+           margin-top: 20em;
+       }
+       #spacer p {
+           padding-left: 5.5em;
+           font-size: 35px;
+       }
+       h1.text {
+           color: #1a2530;
+           font-weight: bold;
+           font-size: 40px;
+           padding-left: 5em;
+       }
+       #centering-el {
+           position: relative;
+           top: 32%;
+       }
+       #clock-infinite{
+        margin-top: 6em;
+       }
 
-input#formGroupExampleInput.form-control{
-    border-radius: 50px;
-    padding: 15px;
-    box-shadow: 0 5px 5px 0 rgba(179, 179, 179, 1);
-}
-input#formGroupExampleInput2.form-control{
-    border-radius: 50px;
-    padding: 15px;
-    box-shadow: 0 5px 5px 0 rgba(179, 179, 179, 1);
-}
-input.form-control{
-    border-radius: 50px;
-    padding: 15px;
-    box-shadow: 0 5px 5px 0 rgba(179, 179, 179, 1);
-
-}
-
-button.btn.btn-primary{
-    border-radius: 45px;
-    padding: 15px;
-    box-shadow: 0 1px 1px 0 rgba(32, 33, 36, .28);
-
-}
-
-
-footer img{
-    max-width: 100%;
-    height: auto;
-    margin-top: -35vh;
-}
+       #thefinalblue{
+        background-color: #3abecb;
+        height: 46vh;
+        margin-top: -3em;
+       }
+   }
