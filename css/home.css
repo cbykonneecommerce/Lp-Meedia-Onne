@@ -1,0 +1,138 @@
+   /* body { max-width: 1220px} */
+   body{
+       width: 100%;
+       overflow-x: hidden;
+   }
+* { margin: 0; padding: 0; outline: none; box-sizing: border-box;}
+
+.hd{
+    width: 100%; 
+    height: 10vh; 
+    background-color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.hd img{
+    width: 15vw;
+}
+
+#banner{
+    background-color: #0D202E;
+    max-width: 100%;
+    height: auto;
+}
+
+#banner img{
+    max-width: 100%;
+    height: auto;
+}
+
+#time{
+    max-width: 100%;
+    height: auto;
+    margin-top: -20em;
+}
+
+
+#forms{
+    background-image: url(/img/bgforms.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    height: 130vh;
+    margin-top: -8em;
+    
+}
+
+h2.bg-forms{
+    color: #1a2530;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+#bg-menu{
+    background-image: url(/img/bgmenu.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.text{
+    max-width: 100%;
+    height: auto;
+}
+
+h1.text{
+    color: #1a2530;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 5em;
+}
+p{
+    color: #3abecb;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#bg-menu{
+    max-width: 100%;
+    height: 145vh;
+}
+
+h2.menu{
+    color: white;
+    font-weight: bold;
+}
+
+
+h2.saiba{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p.saiba-forms{
+    color: #1a2530;
+    font-weight: light;
+    font-size: 23px;
+}
+
+.formulario{
+
+}
+
+input#formGroupExampleInput.form-control{
+    border-radius: 50px;
+    padding: 15px;
+    box-shadow: 0 5px 5px 0 rgba(179, 179, 179, 1);
+}
+input#formGroupExampleInput2.form-control{
+    border-radius: 50px;
+    padding: 15px;
+    box-shadow: 0 5px 5px 0 rgba(179, 179, 179, 1);
+}
+input.form-control{
+    border-radius: 50px;
+    padding: 15px;
+    box-shadow: 0 5px 5px 0 rgba(179, 179, 179, 1);
+
+}
+
+button.btn.btn-primary{
+    border-radius: 45px;
+    padding: 15px;
+    box-shadow: 0 1px 1px 0 rgba(32, 33, 36, .28);
+
+}
+
+
+footer img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -35vh;
+}

@@ -1,0 +1,45 @@
+/*
+@font-face {
+    font-family: 'DINPro';
+    src: url('/arquivos/DINPro-Medium.ttf.css'); 
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'DINPro';
+    src: url('/arquivos/DINPro-Bold.ttf.css'); 
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'DINPro';
+    src: url('/arquivos/DINPro-Light.ttf.css'); 
+    font-weight: 200;
+  }
+*/
+  @font-face {
+    font-family: 'eacologica';
+    src: url('/arquivos/eacologica-round-slab-ffp.otf.css'); 
+    font-weight: bold;
+  }
+
+
+
+
+  @font-face {
+    font-family: 'DINPro';
+    src: url('/font/DINPro-Black\ tr.ttf'); 
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'DINPro';
+    src: url('/font/DINPro-Bold\ tr.ttf'); 
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'DINPro';
+    src: url('/font/DINPro-Light\ tr.ttf'); 
+    font-weight: 200;
+  }
