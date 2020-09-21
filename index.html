@@ -27,26 +27,29 @@
 
         <img class="img-fluid" src="img/marcaa-meediaonne1.svg" alt="">
     </header>
-
-    <div class="row" style="background-color: #0D202E;">
-        <div class="col-sm-6" style="z-index:999">
-            <div id="banner">
-                <img class="img-fluid" src="img/pc-mockup.png" alt="">
+    <div class="container-fluid" id="thefirstcontainer" >
+        <div class="row" style="background-color: #0D202E;">
+            <div class="col-sm-6" style="z-index:999">
+                <div id="banner">
+                    <img class="img-fluid" src="img/pc-mockup.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-6" style="z-index:999;">
+                <div id="banner-text">
+                    <img class="img-fluid" id="firsttext" src="img/frases.png" alt="">
+                </div>
+            </div>
+    
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="time" style="padding: 0;">
+                <img class="img-fluid" src="img/timeline01.png" alt=""
+                    style="max-width: 100%;height: auto;">
             </div>
         </div>
-        <div class="col-sm-6" style="z-index:999">
-            <div id="banner-text">
-                <img class="img-fluid" id="firsttext" src="img/frases.png" alt="">
-            </div>
-        </div>
+    </div>
 
-    </div>
-    <div class="row">
-        <div class="col-md-12" id="time">
-            <img class="img-fluid" src="img/timeline01.png" alt=""
-                style="max-width: 100%;height: auto;margin-top: 0em;">
-        </div>
-    </div>
+    
 
     <div class="container" id="forms">
         <div class="row">
@@ -57,24 +60,45 @@
 
                     <form>
 
-                        <div class="form-group col-md-12">
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Empresa">
-                        </div>
-                        <div class="form-group col md-12">
-
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Site">
-                        </div>
-                        <div class="col-12">
+                        <div class="form-group">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Nome">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Cargo">
+                                <div class="col-12">
+                                    <input type="text" class="form-control" id="empresa" placeholder="Empresa">
                                 </div>
                             </div>
+                           
                         </div>
-                        <div class="col-12 mt-2">
+                        
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-12">
+                                    <input type="text" class="form-control" id="cnpj" placeholder="CNPJ">
+                                </div>
+                            </div>
+                           
+                        </div>
+
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-12">
+                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Site">
+                                </div>
+                            </div>
+                           
+                        </div>
+
+                       <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Nome">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Cargo">
+                            </div>
+                        </div>
+                       </div>
+                            
+                        <div class="form-group">
                             <div class="row">
                                 <div class="col-md-6">
                                     <input type="text" class="form-control" placeholder="E-mail">
@@ -84,19 +108,24 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-2">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Pages Views / mês">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Investimento em mídia / mês">
-                                </div>
+                       
+                           
+                     <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Pages Views / mês">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Investimento em mídia / mês">
                             </div>
                         </div>
+                     </div>
+                        
+                          
+                   
                     </form>
                     <div class="mt-5 col-12 d-flex justify-content-center">
-                        <button type="button" class="btn btn-primary col-3" id="form-sender">Enviar</button>
+                        <a  class="" id="form-sender">Enviar</a>
                     </div>
                 </div>
             </div>
@@ -139,7 +168,7 @@
                     </h2>
                     <p>Conheça o fluxo de funcionamento da plataforma e seus benefícios</p>
                 </div>
-                <div class="col-md-3 .d-sm-block">
+                <div class="col-md-3 d-sm-block">
                     <img src="img/logomenu.png" alt="" style="height: 15vh;">
                 </div>
             </div>
@@ -187,7 +216,7 @@
     <div style="" id="thefinalblue">
 
         <div class="container ">
-            <div class="row mt-5 ">
+            <div class="row lastrow">
 
                 <div class="col-md-9">
                     <h2 class="saiba">
@@ -212,7 +241,7 @@
     </div>
 
     <footer>
-        <img class="img-fluid" src="img/footer.png" alt="">
+    <img class="img-fluid" id="footer-icon" src="img/footerlogo.png" alt="">
     </footer>
     
 
